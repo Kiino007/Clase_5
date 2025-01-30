@@ -109,10 +109,10 @@ else:
 #con funcion
 def verificar_edad(edad):
     if edad >= 18:
-    print("eres mayor de edad")
+        print("eres mayor de edad")
 
     else:
-    print("te redirijo a google")
+        print("te redirijo a google")
 
 edad_usuario = int(input("Ingrese su edad"))
 verificar_edad(edad_usuario)
