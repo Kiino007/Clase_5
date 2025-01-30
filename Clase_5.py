@@ -50,3 +50,69 @@ numero = len(arreglo)
 
 #3 Facilidad del mantenimiento
 #si hay errores en la ejecucion, se puden corregir en una sola funcion, en lugar de buscar varias partes del programa 
+
+#Escalabilidad
+#Se puede agrandar el enfazis o alcance del proyecto con menos codigo, manejando mas cosas con el menor esfuerzo.....
+#Contruir programas mas grandes de una manera mas ordenada y logica
+
+#Facilita el trabajo en equipo
+# en proyectos grandes los devs pueden trabajar en funciones separadas sin afectar otras partes del codigo
+
+#Componentes de una funcion
+
+#nombre de la funcion:
+#identificador unico que permite llamarla cuando sea necesario
+
+#Parametros(opcional):
+#Son los datos que recibe una funcion para trabajar con ellos 
+
+#Cuerpo de la funcion
+#Es un bloque de codigo que define el comportamiento de la funcion 
+
+#valor de retorno(opcional):
+#resultado que a funcion va a devolver al flujo principal
+
+#diferencia entre una funcion y un bloque de codigo
+
+
+
+# //////////////////////////////////////////////////////////////////////
+
+#Ejemplo en pseudocodigo de como calcular el area de un rectangulo
+
+#1 pedir la base y la altura
+#2 multiplicar base * altura
+#3 mostrar el resultado
+
+
+#parametros y retornos
+#las funciones reciben parametros que devuelven resultados
+
+#parametro: es el insumo con el que trabaja la funcion
+
+#retorno: es el resultado de procesar los parametros
+
+#1. ingresar "Late" y "grande" como parametros a la maquina 
+#2 la maquina prepara el cafe
+#3 la maquina devuelve el cafe listo
+
+# sin funciones
+
+edad = int(input("ingrese su edad: "))
+
+if edad >= 18:
+    print("eres mayor de edad")
+
+else:
+    print("te redirijo a google")
+
+#con funcion
+def verificar_edad(edad):
+    if edad >= 18:
+    print("eres mayor de edad")
+
+    else:
+    print("te redirijo a google")
+
+edad_usuario = int(input("Ingrese su edad"))
+verificar_edad(edad_usuario)
